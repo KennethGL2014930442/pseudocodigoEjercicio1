@@ -1,0 +1,17 @@
+Algoritmo Ejercicio1
+	Escribir 'Ingrese un numero entero: '
+	Leer num
+	contadorpar <- 0
+	contadorimpar <- 0
+	Para i<-1 Hasta num Hacer
+		numero <- Aleatorio(1,100)
+		Escribir 'Los numeros aleatorios son: ',numero
+		Si numero MOD 2==0 Entonces
+			contadorpar <- contadorpar+1
+		SiNo
+			contadorimpar <- contadorimpar+1
+		FinSi
+	FinPara
+	Escribir 'Los numeros pares son en total: ',contadorpar
+	Escribir 'Los numeros impares son en total: ',contadorimpar
+FinAlgoritmo
